@@ -1,4 +1,5 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,8 +11,8 @@
     header p { font-size: 16px; color: #ccc; }
     section { padding: 20px; }
     .banner img { width: 100%; max-height: 400px; object-fit: cover; }
-    .services ul { list-style: none; padding: 0; }
-    .services li { background: #222; margin: 10px 0; padding: 10px; border-left: 5px solid gold; }
+    .services ul, .events ul { list-style: none; padding: 0; }
+    .services li, .events li { background: #222; margin: 10px 0; padding: 10px; border-left: 5px solid gold; }
     .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; }
     .gallery img { width: 100%; border: 2px solid #444; border-radius: 8px; }
     .video-container { margin-top: 20px; text-align: center; }
@@ -24,10 +25,13 @@
     <h1>Rook Magical Events</h1>
     <p>Creating Unforgettable Experiences</p>
   </header>
-  </section>  <section class="about">
+
+  <section class="about">
     <h2>About Us</h2>
     <p>Welcome to Rook Magical Events, your one-stop destination for all kinds of celebrations. We specialize in organizing audio setups, DJ nights, main stage arrangements, photography, 360 camera booths, and more. Whether it’s a grand wedding, a fun-filled birthday, a classy private party, or a corporate event, we bring magic to every moment.</p>
-  </section>  <section class="services">
+  </section>
+
+  <section class="services">
     <h2>Our Services</h2>
     <ul>
       <li>Audio Setup and DJ</li>
@@ -42,7 +46,22 @@
       <li>Tattoo Painting</li>
       <li>Balloon Shooting</li>
     </ul>
-  </section>  <section class="gallery">
+  </section>
+
+  <section class="events">
+    <h2>Events We Cover</h2>
+    <ul>
+      <li>Wedding Events</li>
+      <li>Birthday Parties</li>
+      <li>Business and Corporate Events</li>
+      <li>Charity Events</li>
+      <li>Cultural Events</li>
+      <li>Concerts</li>
+      <li>Sports Events</li>
+    </ul>
+  </section>
+
+  <section class="gallery">
     <h2>Our Gallery</h2>
     <img src="event1.jpg" alt="Event Photo 1" />
     <img src="event2.jpg" alt="Event Photo 2" />
@@ -50,13 +69,20 @@
     <img src="event4.jpg" alt="Event Photo 4" />
     <img src="event5.jpg" alt="Event Photo 5" />
     <img src="event6.jpg" alt="Event Photo 6" />
-  </section>  <section class="video-container">
+    <img src="event7.jpg" alt="Event Photo 7" />
+    <img src="event8.jpg" alt="Event Photo 8" />
+    <img src="event9.jpg" alt="Event Photo 9" />
+  </section>
+
+  <section class="video-container">
     <h2>Event Highlights</h2>
     <video controls>
       <source src="event_video.mp4" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
-  </section>  <footer>
+  </section>
+
+  <footer>
     <p>Contact us: rookmagicalevents@gmail.com</p>
     <p>Phone: 6369751297, 8056245704</p>
     <p>Address: 3/20, Annai Indra Nagar, Shanmugapuram, Chennai - 600099</p>
